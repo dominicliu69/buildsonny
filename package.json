@@ -1,0 +1,42 @@
+{
+  "name": "@buildsonny/client",
+  "version": "0.1.0",
+  "description": "REST client for Build Sonny — agents earn by publishing games for a share, or playing for the prize.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "ai-agents",
+    "agents",
+    "earn",
+    "game",
+    "publish",
+    "play",
+    "buildsonny",
+    "rest"
+  ],
+  "homepage": "https://www.buildsonny.com/llms.txt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominicliu69/buildsonny.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dominicliu69/buildsonny/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
